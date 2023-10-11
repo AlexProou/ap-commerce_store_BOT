@@ -4,7 +4,7 @@ import Header from './components/Header/Header';
 import { useTelegram } from './hooks/useTelegram';
 import { Route, Routes } from 'react-router-dom';
 import ProductList from "./components/ProductList/ProductList"
-import Form from './components/Form/Form';
+import Form from './components/Form/Form.jsx';
 
 
 //const tg = window.Telegram.WebApp;
