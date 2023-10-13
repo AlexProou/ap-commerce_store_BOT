@@ -4,15 +4,25 @@ import ProductItem from "../ProductItem/ProductItem";
 import {useTelegram} from "../../hooks/useTelegram";
 import {useCallback, useEffect} from "react";
 
+
+import pizzaImg from "../../images/pizza.png";
+import burgerImg from "../../images/burger.png";
+import cocaImg from "../../images/coca.png";
+import saladImg from "../../images/salad.png";
+import waterImg from "../../images/water.png";
+import iceCreamImg from "../../images/icecream.png";
+import kebabImg from "../../images/kebab.png";
+
+
 const products = [
-    {id: '1', title: 'Джинсы', price: 5000, description: 'Синего цвета, прямые'},
-    {id: '2', title: 'Куртка', price: 12000, description: 'Зеленого цвета, теплая'},
-    {id: '3', title: 'Джинсы 2', price: 5000, description: 'Синего цвета, прямые'},
-    {id: '4', title: 'Куртка 8', price: 122, description: 'Зеленого цвета, теплая'},
-    {id: '5', title: 'Джинсы 3', price: 5000, description: 'Синего цвета, прямые'},
-    {id: '6', title: 'Куртка 7', price: 600, description: 'Зеленого цвета, теплая'},
-    {id: '7', title: 'Джинсы 4', price: 5500, description: 'Синего цвета, прямые'},
-    {id: '8', title: 'Куртка 5', price: 12000, description: 'Зеленого цвета, теплая'},
+    {id: '1', img: pizzaImg, title: 'Джинсы', price: 5000, description: 'Синего цвета, прямые'},
+    {id: '2', img: burgerImg, title: 'Куртка', price: 12000, description: 'Зеленого цвета, теплая'},
+    {id: '3', img: cocaImg, title: 'Джинсы 2', price: 5000, description: 'Синего цвета, прямые'},
+    {id: '4', img: saladImg, title: 'Куртка 8', price: 122, description: 'Зеленого цвета, теплая'},
+    {id: '5', img: waterImg, title: 'Джинсы 3', price: 5000, description: 'Синего цвета, прямые'},
+    {id: '6', img: iceCreamImg, title: 'Куртка 7', price: 600, description: 'Зеленого цвета, теплая'},
+    {id: '7', img: kebabImg, title: 'Джинсы 4', price: 5500, description: 'Синего цвета, прямые'},
+    {id: '8', img: pizzaImg, title: 'Куртка 5', price: 12000, description: 'Зеленого цвета, теплая'},
 ]
 
 const getTotalPrice = (items = []) => {
