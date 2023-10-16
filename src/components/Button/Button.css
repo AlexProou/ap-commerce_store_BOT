@@ -7,3 +7,22 @@
         cursor: pointer;
    
 }
+
+button.buttonundefined {
+        padding: 10px 15px;
+        background: var(--tg-theme-button-color);
+        color: var(--tg-theme-button-text-color);
+        border: none;
+        outline: none;
+        background-color: aqua;
+        padding-left: 0rem;
+        font-size: 0.8rem;
+        text-align: center;
+        border: 0;
+        outline: none;
+        border-radius: 10px;
+        width: 8rem;
+        height: 2.5rem;
+        margin-left: 1.5rem;
+        cursor: pointer;
+}
