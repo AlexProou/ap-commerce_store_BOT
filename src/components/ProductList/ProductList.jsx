@@ -36,14 +36,14 @@ import comix_8_Img from "../../images/comix_8.jpg";
 // ]
 
 const products = [
-    {id: '1', img: comix_1_Img, title: 'Injustice: Gods Among Us:', description: ' Year One ', price: 1500},
-    {id: '2', img: comix_2_Img, title: 'Injustice: Gods Among Us:', description: 'Year Two ', price: 1300},
-    {id: '3', img: comix_3_Img, title: 'Injustice: Gods Among Us:', description: 'Year Three', price: 930},
-    {id: '4', img: comix_4_Img, title: 'Injustice: Gods Among Us:', description: 'Year Four ', price: 1080},
-    {id: '5', img: comix_5_Img, title: 'Injustice: Gods Among Us:', description: ' Year Five', price: 1750},
-    {id: '6', img: comix_6_Img, title: 'Куртка 7', price: 600, description: 'Зеленого цвета, теплая'},
-    {id: '7', img: comix_7_Img, title: 'Джинсы 4', price: 5500, description: 'Синего цвета, прямые'},
-    {id: '8', img: comix_8_Img, title: 'Куртка 5', price: 12000, description: 'Зеленого цвета, теплая'},
+    {id: '1', img: comix_1_Img, title: 'Injustice: Gods Among Us', description: ' Year One ', price: 1500},
+    {id: '2', img: comix_2_Img, title: 'Injustice: Gods Among Us', description: 'Year Two ', price: 1300},
+    {id: '3', img: comix_3_Img, title: 'Injustice: Gods Among Us', description: 'Year Three', price: 930},
+    {id: '4', img: comix_4_Img, title: 'Injustice: Gods Among Us', description: 'Year Four ', price: 1080},
+    {id: '5', img: comix_5_Img, title: 'Injustice: Gods Among Us', description: ' Year Five', price: 1750},
+    {id: '6', img: comix_6_Img, title: 'Batman',  description: 'Hush', price: 2000},
+    {id: '7', img: comix_7_Img, title: 'Green Lantern', description: 'Rebirth', price: 880},
+    {id: '8', img: comix_8_Img, title: 'Gotham City Villains', description: 'Anniversary Giant', price: 999},
 ]
 
 const getTotalPrice = (items = []) => {

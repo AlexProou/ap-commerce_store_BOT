@@ -5,13 +5,23 @@
 }
 
 .item {
+    width: 11rem;
+    height: 19rem;
     margin-right: 10px;
     margin-bottom: 10px;
+}
+
+
+
+.title, .description, .price {
+    text-align: center;
 }
 
 img {
     width: 9rem;
     height: 12rem;
+    border-radius: 5px;
+    border: 1px solid #080b4e;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -21,7 +31,7 @@ img {
 
 button.buttonadd-btn {
     background-color: aqua;
-    padding: 0.6rem 0.8rem;
+    padding-left: 0rem;
     font-size: 0.8rem;
     text-align: center;
     border: 0;
@@ -29,7 +39,7 @@ button.buttonadd-btn {
     border-radius: 10px;
     width: 8rem;
     height: 2.5rem;
-    margin-left: 10px;
+    margin-left: 1.5rem;
     box-shadow: 1px -3px 52px -5px rgba(0, 0, 0, 0.77);
     cursor: pointer;
   }
